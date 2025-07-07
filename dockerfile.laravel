@@ -1,0 +1,57 @@
+# Build arguments
+ARG PHP_VERSION=8.3
+ARG PHP_VARIANT=cli
+
+# Use base image
+FROM php:${PHP_VERSION}-${PHP_VARIANT}
+
+# Pass build args to runtime ENV vars
+ENV PHP_VERSION=${PHP_VERSION}
+ENV PHP_VARIANT=${PHP_VARIANT}
+ENV FRAMEWORK=laravel
+
+
+# Use the selected PHP base image
+FROM php:${PHP_VERSION}-${PHP_VARIANT}
+
+# Install system dependencies and PHP extensions
+RUN apt-get update && \
+    apt-get install -y \
+        git \
+        unzip \
+        libicu-dev \
+        libpq-dev \
+        libzip-dev \
+        zip \
+    && docker-php-ext-install intl pdo pdo_mysql opcache zip \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install Composer globally from the official Composer image
+COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
+
+# Set the working directory
+WORKDIR /app
+
+# Copy only the selected framework's composer files first (for layer caching)
+COPY laravel/composer.json composer.json
+COPY laravel/composer.lock composer.lock
+
+# Install Composer dependencies without scripts yet
+RUN composer install --no-scripts --no-autoloader --prefer-dist --no-interaction
+
+# Copy the rest of the selected framework's code
+COPY laravel/ ./
+
+# Dump autoload files and run post-install scripts
+RUN composer dump-autoload --optimize && \
+    composer run-script post-install-cmd || true
+
+# Expose port 8000 for dev server (Laravel or Symfony)
+EXPOSE 8000
+
+# Copy the entrypoint script and make it executable
+COPY entrypoint.sh /usr/local/bin/entrypoint.sh
+RUN chmod +x /usr/local/bin/entrypoint.sh
+
+# Use the entrypoint script
+ENTRYPOINT ["entrypoint.sh"]

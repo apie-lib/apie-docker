@@ -1,0 +1,64 @@
+{
+    "name": "vendor/laravel",
+    "description": "This project was created with apie/apie-project-starter",
+    "license": "proprietary",
+    "keywords": [
+        "apie",
+        "rest",
+        "api",
+        "openapi",
+        "laravel",
+        "framework"
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "apie/meta-maximum": "1.0.0.x-dev",
+        "apie/laravel-apie": "1.0.0.x-dev",
+        "laravel/framework": "^11.0",
+        "laravel/sanctum": "^4.1",
+        "guzzlehttp/guzzle": "^7.2"
+    },
+    "require-dev": {
+        "apie/apie-phpstan-rules": "1.0.0.x-dev",
+        "phpstan/phpstan": "^2.0",
+        "phpunit/phpunit": "^11.0",
+        "nunomaduro/collision": "^8.8",
+        "spatie/laravel-ignition": "^2.0",
+        "larastan/larastan": "^3.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Database\\Factories\\": "database/factories/",
+            "Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "App\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "post-autoload-dump": [
+            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+            "@php artisan package:discover --ansi"
+        ],
+        "post-update-cmd": [
+            "@php artisan vendor:publish --tag=laravel-assets --ansi --force"
+        ]
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "allow-plugins": {
+            "apie/apie-common-plugin": true
+        }
+    },
+    "extra": {
+        "laravel": {
+            "dont-discover": []
+        }
+    }
+}

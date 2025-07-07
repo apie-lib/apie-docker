@@ -1,0 +1,19 @@
+<p>This is the Apie example app. The only application code can be found in app\Apie and contains just domain objects.
+The rest is just done with apie/rest-api and apie/cms.</p>
+
+<p>
+You are now viewing the CMS dashboard, but you can also see the <a href="{{ url('/api/example') }}">Rest API generated Swagger UI page.</a>
+</p>
+
+<p>
+  How to continue?
+  <ul>
+    <li>Set up database if you have a MYSQL database.
+      <ul>
+        <li>Open config/apie.json in a text editor</li>
+        <li>Change the database DSN to add username, password host and database name</li>
+      </ul>
+    </li>
+    <li>Adding console commands? Do <pre>composer require apie/console:1.0.0.x-dev</pre> to get console commands to create resources.</li>
+  </ul>
+</p>

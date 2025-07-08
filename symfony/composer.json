@@ -52,5 +52,11 @@
     },
     "conflict": {
         "symfony/twig-bundle": "v6.4.0-BETA1"
+    },
+    "scripts": {
+        "auto-scripts": {
+            "cache:clear": "symfony-cmd",
+            "assets:install %PUBLIC_DIR%": "symfony-cmd"
+        }
     }
 }

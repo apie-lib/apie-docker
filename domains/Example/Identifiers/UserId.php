@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Apie\Example\Identifiers;
+namespace Domains\Example\Identifiers;
 
 use Apie\CommonValueObjects\Email;
 use Apie\Core\Identifiers\IdentifierInterface;
-use App\Apie\Example\Resources\User;
+use Domains\Example\Resources\User;
 use ReflectionClass;
 
 /**

@@ -1,0 +1,17 @@
+{
+    "name": "apie/apie-docker",
+    "description": "only used to autoload classes in IDE",
+    "type": "library",
+    "require": {
+        "apie/apie-lib": "1.0.0.x-dev"
+    },
+    "lock": false,
+    "prefer-stable": true,
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "config": {
+        "allow-plugins": {
+            "apie/apie-lib": true
+        }
+    }
+}

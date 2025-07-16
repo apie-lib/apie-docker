@@ -1,14 +1,14 @@
 <?php
 
-namespace App\Apie\Example\Resources;
+namespace Domains\Example\Resources;
 
 use Apie\Core\Attributes\RemovalCheck;
 use Apie\Core\Attributes\Requires;
 use Apie\Core\Attributes\RuntimeCheck;
 use Apie\Core\Attributes\StaticCheck;
 use Apie\Core\Entities\EntityInterface;
-use App\Apie\Example\Dtos\DtoExample;
-use App\Apie\Example\Identifiers\ExampleId;
+use Domains\Example\Dtos\DtoExample;
+use Domains\Example\Identifiers\ExampleId;
 
 #[RuntimeCheck(new Requires('authenticated'))]
 #[RemovalCheck(new StaticCheck())]

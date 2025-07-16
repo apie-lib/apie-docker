@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Apie\Example\Dtos;
+namespace Domains\Example\Dtos;
 
 use Apie\CommonValueObjects\FullName;
 use Apie\Core\Dto\DtoInterface;

@@ -1,9 +1,9 @@
 <?php
-namespace App\Apie\Example\ValueObjects;
+namespace Domains\Example\ValueObjects;
 
 use Apie\Core\Entities\EntityInterface;
 use Apie\OtpValueObjects\VerifyOTP;
-use App\Apie\Example\Resources\User;
+use Domains\Example\Resources\User;
 use ReflectionProperty;
 
 /**

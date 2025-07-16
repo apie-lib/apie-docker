@@ -1,5 +1,5 @@
 <?php
-namespace App\Apie\Example\Resources;
+namespace Domains\Example\Resources;
 
 use Apie\Common\Interfaces\CheckLoginStatusInterface;
 use Apie\CommonValueObjects\Email;
@@ -10,7 +10,7 @@ use Apie\Serializer\Exceptions\ValidationException;
 use Apie\Core\ValueObjects\DatabaseText;
 use Apie\TextValueObjects\EncryptedPassword;
 use Apie\TextValueObjects\StrongPassword;
-use App\Apie\Example\Identifiers\UserId;
+use Domains\Example\Identifiers\UserId;
 use LogicException;
 
 final class User implements EntityWithStatesInterface, CheckLoginStatusInterface

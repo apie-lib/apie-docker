@@ -1,17 +1,12 @@
 <?php
-
 use Apie\DoctrineEntityDatalayer\DoctrineEntityDatalayer;
 
 return [
     'cms' => [
-        'base_url' => '/cms',
         'dashboard_template' => 'apie/dashboard',
-        'error_template' => 'apie::error',
-        'asset_folders' => [],
     ],
     'doctrine' => [
-        'build_once' => false,
-        'run_migrations' => true,
+        //'build_once' => true,
         'connection_params' => [
             'driver' => 'pdo_sqlite',
             'path' => base_path("db.sqlite"),
@@ -20,15 +15,13 @@ return [
     'datalayers' => [
         'default_datalayer' => DoctrineEntityDatalayer::class,
     ],
-    'bounded_contexts' => [
-        'example' => [
-            'entities_folder' => base_path("app/Apie/Example/Resources/"),
-            'entities_namespace' => 'App\Apie\Example\Resources',
-            'actions_folder' => base_path("app/Apie/Example/Actions/"),
-            'actions_namespace' => 'App\Apie\Example\Actions',
-        ],
+    'bounded_contexts' => [],
+    'scan_bounded_contexts' => [
+        'search_path' => base_path('domains/'),
+        'search_namespace' => 'Domains\\',
     ],
-    'rest_api' => [
-        'base_url' => '/api',
-    ]
+    'maker' => [
+        'target_path' => base_path('domains/'),
+        'target_namespace' => 'Domains\\',
+    ],
 ];

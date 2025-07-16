@@ -9,9 +9,11 @@ apie:
   datalayers:
     #default_datalayer: 'App\Apie\InMemoryDataLayer'
     default_datalayer: 'Apie\DoctrineEntityDatalayer\DoctrineEntityDatalayer'
-  bounded_contexts:
-    example:
-      entities_folder: "%kernel.project_dir%/src/Apie/Example/Resources/"
-      entities_namespace: 'App\Apie\Example\Resources'
-      actions_folder: "%kernel.project_dir%/src/Apie/Example/Actions/"
-      actions_namespace: 'App\Apie\Example\Actions'
+  bounded_contexts: []
+  scan_bounded_contexts:
+    search_path: "%kernel.project_dir%/domains/"
+    search_namespace: "Domains\\"
+  maker:
+    target_path: "%kernel.project_dir%/domains/"
+    target_namespace: "Domains\\"
+

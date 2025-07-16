@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Apie\Example\Actions;
+namespace Domains\Example\Actions;
 
-use App\Apie\Example\Dtos\ApplicationInfo;
+use Domains\Example\Dtos\ApplicationInfo;
 
 class ApiInfo
 {

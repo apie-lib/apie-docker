@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Apie\Example\Actions;
+namespace Domains\Example\Actions;
 
 use Apie\Common\ApieFacade;
 use Apie\Core\Attributes\Not;
@@ -8,8 +8,8 @@ use Apie\Core\Attributes\Requires;
 use Apie\Core\Attributes\RuntimeCheck;
 use Apie\Core\BoundedContext\BoundedContextId;
 use Apie\Core\Exceptions\EntityNotFoundException;
-use App\Apie\Example\Identifiers\UserId;
-use App\Apie\Example\Resources\User;
+use Domains\Example\Identifiers\UserId;
+use Domains\Example\Resources\User;
 
 class Authentication
 {

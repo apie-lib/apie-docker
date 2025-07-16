@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Apie\Example\Identifiers;
+namespace Domains\Example\Identifiers;
 
-use App\Apie\Example\Resources\Example;
+use Domains\Example\Resources\Example;
 use Apie\Core\Identifiers\IdentifierInterface;
 use Apie\Core\Identifiers\UuidV4;
 use ReflectionClass;

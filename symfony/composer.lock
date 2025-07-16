@@ -1032,12 +1032,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/apie-lib/maker.git",
-                "reference": "f53e80aff14a2e08a77f00a3689e93801d2c76c2"
+                "reference": "c4e78357e3d15eca548807e2cfd4c351caa09da6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/apie-lib/maker/zipball/f53e80aff14a2e08a77f00a3689e93801d2c76c2",
-                "reference": "f53e80aff14a2e08a77f00a3689e93801d2c76c2",
+                "url": "https://api.github.com/repos/apie-lib/maker/zipball/c4e78357e3d15eca548807e2cfd4c351caa09da6",
+                "reference": "c4e78357e3d15eca548807e2cfd4c351caa09da6",
                 "shasum": ""
             },
             "require": {
@@ -1093,7 +1093,7 @@
                 "issues": "https://github.com/apie-lib/maker/issues",
                 "source": "https://github.com/apie-lib/maker/tree/1.0.0"
             },
-            "time": "2025-06-14T19:38:32+00:00"
+            "time": "2025-07-10T09:27:56+00:00"
         },
         {
             "name": "apie/meta-maximum",
@@ -12744,14 +12744,14 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "apie/meta-maximum": 20,
         "apie/apie-bundle": 20,
-        "apie/apie-phpstan-rules": 20,
         "apie/cms-layout-graphite": 20,
-        "apie/meta-maximum": 20
+        "apie/apie-phpstan-rules": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.2.0"
 }

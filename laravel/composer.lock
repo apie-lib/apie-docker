@@ -232,12 +232,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/apie-lib/common.git",
-                "reference": "46c10dd14f11825e7b9d9e8c3351b5e9ee099d00"
+                "reference": "0a0fb06a77ed43261fe06e4d1a5c8ff4882d0630"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/apie-lib/common/zipball/46c10dd14f11825e7b9d9e8c3351b5e9ee099d00",
-                "reference": "46c10dd14f11825e7b9d9e8c3351b5e9ee099d00",
+                "url": "https://api.github.com/repos/apie-lib/common/zipball/0a0fb06a77ed43261fe06e4d1a5c8ff4882d0630",
+                "reference": "0a0fb06a77ed43261fe06e4d1a5c8ff4882d0630",
                 "shasum": ""
             },
             "require": {
@@ -289,7 +289,7 @@
                 "issues": "https://github.com/apie-lib/common/issues",
                 "source": "https://github.com/apie-lib/common/tree/1.0.0"
             },
-            "time": "2025-06-22T15:13:50+00:00"
+            "time": "2025-07-15T15:15:41+00:00"
         },
         {
             "name": "apie/common-value-objects",
@@ -413,12 +413,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/apie-lib/core.git",
-                "reference": "6eed6f32628b3b152dc961d72eb050a7f5d6a52a"
+                "reference": "14dfdfdbcc8303f6cb8313050bdca63da228181d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/apie-lib/core/zipball/6eed6f32628b3b152dc961d72eb050a7f5d6a52a",
-                "reference": "6eed6f32628b3b152dc961d72eb050a7f5d6a52a",
+                "url": "https://api.github.com/repos/apie-lib/core/zipball/14dfdfdbcc8303f6cb8313050bdca63da228181d",
+                "reference": "14dfdfdbcc8303f6cb8313050bdca63da228181d",
                 "shasum": ""
             },
             "require": {
@@ -498,7 +498,7 @@
                 "issues": "https://github.com/apie-lib/core/issues",
                 "source": "https://github.com/apie-lib/core/tree/1.0.0"
             },
-            "time": "2025-06-22T15:14:09+00:00"
+            "time": "2025-07-15T13:23:29+00:00"
         },
         {
             "name": "apie/count-words",
@@ -1018,12 +1018,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/apie-lib/maker.git",
-                "reference": "f53e80aff14a2e08a77f00a3689e93801d2c76c2"
+                "reference": "c4e78357e3d15eca548807e2cfd4c351caa09da6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/apie-lib/maker/zipball/f53e80aff14a2e08a77f00a3689e93801d2c76c2",
-                "reference": "f53e80aff14a2e08a77f00a3689e93801d2c76c2",
+                "url": "https://api.github.com/repos/apie-lib/maker/zipball/c4e78357e3d15eca548807e2cfd4c351caa09da6",
+                "reference": "c4e78357e3d15eca548807e2cfd4c351caa09da6",
                 "shasum": ""
             },
             "require": {
@@ -1079,7 +1079,7 @@
                 "issues": "https://github.com/apie-lib/maker/issues",
                 "source": "https://github.com/apie-lib/maker/tree/1.0.0"
             },
-            "time": "2025-06-14T19:38:32+00:00"
+            "time": "2025-07-10T09:27:56+00:00"
         },
         {
             "name": "apie/meta-maximum",
@@ -1087,12 +1087,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/apie-lib/meta-maximum.git",
-                "reference": "639a2b43fc74bebd7168fe678304aa5b872ad1db"
+                "reference": "6e4ac903f037ed6c166086740d629503d9d77f03"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/apie-lib/meta-maximum/zipball/639a2b43fc74bebd7168fe678304aa5b872ad1db",
-                "reference": "639a2b43fc74bebd7168fe678304aa5b872ad1db",
+                "url": "https://api.github.com/repos/apie-lib/meta-maximum/zipball/6e4ac903f037ed6c166086740d629503d9d77f03",
+                "reference": "6e4ac903f037ed6c166086740d629503d9d77f03",
                 "shasum": ""
             },
             "require": {
@@ -1102,6 +1102,7 @@
                 "apie/core": "self.version",
                 "apie/meta-recommended": "self.version",
                 "apie/regex-value-objects": "self.version",
+                "apie/typescript-client-builder": "self.version",
                 "php": ">=8.3"
             },
             "require-dev": {
@@ -1128,7 +1129,7 @@
                 "issues": "https://github.com/apie-lib/meta-maximum/issues",
                 "source": "https://github.com/apie-lib/meta-maximum/tree/1.0.0"
             },
-            "time": "2024-12-26T08:11:03+00:00"
+            "time": "2025-07-15T15:15:42+00:00"
         },
         {
             "name": "apie/meta-minimal",
@@ -1384,12 +1385,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/apie-lib/schema-generator.git",
-                "reference": "f0e4b8bd4578cc0482765d3a3b41b5bf2d0b3233"
+                "reference": "622854e9ed906732d6e0f800b58d7b52611d8759"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/apie-lib/schema-generator/zipball/f0e4b8bd4578cc0482765d3a3b41b5bf2d0b3233",
-                "reference": "f0e4b8bd4578cc0482765d3a3b41b5bf2d0b3233",
+                "url": "https://api.github.com/repos/apie-lib/schema-generator/zipball/622854e9ed906732d6e0f800b58d7b52611d8759",
+                "reference": "622854e9ed906732d6e0f800b58d7b52611d8759",
                 "shasum": ""
             },
             "require": {
@@ -1434,7 +1435,7 @@
                 "issues": "https://github.com/apie-lib/schema-generator/issues",
                 "source": "https://github.com/apie-lib/schema-generator/tree/1.0.0"
             },
-            "time": "2025-06-11T16:47:41+00:00"
+            "time": "2025-07-15T15:15:35+00:00"
         },
         {
             "name": "apie/serializer",
@@ -1442,12 +1443,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/apie-lib/serializer.git",
-                "reference": "806f2aabe5a19d6b5db3b0092dc8c1a6aec9cdda"
+                "reference": "73de99941d738ecee02d4fbc661cad24375216d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/apie-lib/serializer/zipball/806f2aabe5a19d6b5db3b0092dc8c1a6aec9cdda",
-                "reference": "806f2aabe5a19d6b5db3b0092dc8c1a6aec9cdda",
+                "url": "https://api.github.com/repos/apie-lib/serializer/zipball/73de99941d738ecee02d4fbc661cad24375216d2",
+                "reference": "73de99941d738ecee02d4fbc661cad24375216d2",
                 "shasum": ""
             },
             "require": {
@@ -1463,6 +1464,7 @@
                 "apie/service-provider-generator": "0.11.3",
                 "apie/text-value-objects": "self.version",
                 "illuminate/support": "*",
+                "nyholm/psr7": "^1.8.2",
                 "phpspec/prophecy-phpunit": "^2.2",
                 "phpunit/phpunit": "^11.5.2"
             },
@@ -1493,7 +1495,7 @@
                 "issues": "https://github.com/apie-lib/serializer/issues",
                 "source": "https://github.com/apie-lib/serializer/tree/1.0.0"
             },
-            "time": "2025-06-22T15:14:10+00:00"
+            "time": "2025-07-14T07:50:33+00:00"
         },
         {
             "name": "apie/service-provider-generator",
@@ -1791,6 +1793,51 @@
                 "source": "https://github.com/apie-lib/type-converter/tree/1.5.0"
             },
             "time": "2025-01-05T15:22:16+00:00"
+        },
+        {
+            "name": "apie/typescript-client-builder",
+            "version": "1.0.0.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/apie-lib/typescript-client-builder.git",
+                "reference": "2178cc0ebb42099dcc3fadfb903af8a47af672f6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/apie-lib/typescript-client-builder/zipball/2178cc0ebb42099dcc3fadfb903af8a47af672f6",
+                "reference": "2178cc0ebb42099dcc3fadfb903af8a47af672f6",
+                "shasum": ""
+            },
+            "require": {
+                "apie/core": "self.version",
+                "php": ">=8.3"
+            },
+            "require-dev": {
+                "phpspec/prophecy-phpunit": "^2.2",
+                "phpunit/phpunit": "^11.5.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Apie\\TypescriptClientBuilder\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pieter Jordaan",
+                    "email": "pieter_jordaan@hotmail.com"
+                }
+            ],
+            "description": "Composer package of the apie library: typescript client builder",
+            "support": {
+                "issues": "https://github.com/apie-lib/typescript-client-builder/issues",
+                "source": "https://github.com/apie-lib/typescript-client-builder/tree/1.0.0"
+            },
+            "time": "2025-07-15T15:15:40+00:00"
         },
         {
             "name": "beste/clock",
@@ -2140,16 +2187,16 @@
         },
         {
             "name": "composer/composer",
-            "version": "2.8.9",
+            "version": "2.8.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/composer.git",
-                "reference": "b4e6bff2db7ce756ddb77ecee958a0f41f42bd9d"
+                "reference": "53834f587d7ab2527eb237459d7b94d1fb9d4c5a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/composer/zipball/b4e6bff2db7ce756ddb77ecee958a0f41f42bd9d",
-                "reference": "b4e6bff2db7ce756ddb77ecee958a0f41f42bd9d",
+                "url": "https://api.github.com/repos/composer/composer/zipball/53834f587d7ab2527eb237459d7b94d1fb9d4c5a",
+                "reference": "53834f587d7ab2527eb237459d7b94d1fb9d4c5a",
                 "shasum": ""
             },
             "require": {
@@ -2234,7 +2281,7 @@
                 "irc": "ircs://irc.libera.chat:6697/composer",
                 "issues": "https://github.com/composer/composer/issues",
                 "security": "https://github.com/composer/composer/security/policy",
-                "source": "https://github.com/composer/composer/tree/2.8.9"
+                "source": "https://github.com/composer/composer/tree/2.8.10"
             },
             "funding": [
                 {
@@ -2250,7 +2297,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-05-13T12:01:37+00:00"
+            "time": "2025-07-10T17:08:33+00:00"
         },
         {
             "name": "composer/metadata-minifier",
@@ -3024,21 +3071,21 @@
         },
         {
             "name": "doctrine/dbal",
-            "version": "4.2.4",
+            "version": "4.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal.git",
-                "reference": "b37d160498ea91a2382a2ebe825c4ea6254fc0ec"
+                "reference": "5fe09532be619202d59c70956c6fb20e97933ee3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/dbal/zipball/b37d160498ea91a2382a2ebe825c4ea6254fc0ec",
-                "reference": "b37d160498ea91a2382a2ebe825c4ea6254fc0ec",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/5fe09532be619202d59c70956c6fb20e97933ee3",
+                "reference": "5fe09532be619202d59c70956c6fb20e97933ee3",
                 "shasum": ""
             },
             "require": {
-                "doctrine/deprecations": "^0.5.3|^1",
-                "php": "^8.1",
+                "doctrine/deprecations": "^1.1.5",
+                "php": "^8.2",
                 "psr/cache": "^1|^2|^3",
                 "psr/log": "^1|^2|^3"
             },
@@ -3049,7 +3096,7 @@
                 "phpstan/phpstan": "2.1.17",
                 "phpstan/phpstan-phpunit": "2.0.6",
                 "phpstan/phpstan-strict-rules": "^2",
-                "phpunit/phpunit": "10.5.46",
+                "phpunit/phpunit": "11.5.23",
                 "slevomat/coding-standard": "8.16.2",
                 "squizlabs/php_codesniffer": "3.13.1",
                 "symfony/cache": "^6.3.8|^7.0",
@@ -3110,7 +3157,7 @@
             ],
             "support": {
                 "issues": "https://github.com/doctrine/dbal/issues",
-                "source": "https://github.com/doctrine/dbal/tree/4.2.4"
+                "source": "https://github.com/doctrine/dbal/tree/4.3.0"
             },
             "funding": [
                 {
@@ -3126,7 +3173,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-06-15T23:15:01+00:00"
+            "time": "2025-06-16T19:31:04+00:00"
         },
         {
             "name": "doctrine/deprecations",
@@ -4962,16 +5009,16 @@
         },
         {
             "name": "laravel/prompts",
-            "version": "v0.3.5",
+            "version": "v0.3.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/prompts.git",
-                "reference": "57b8f7efe40333cdb925700891c7d7465325d3b1"
+                "reference": "86a8b692e8661d0fb308cec64f3d176821323077"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/prompts/zipball/57b8f7efe40333cdb925700891c7d7465325d3b1",
-                "reference": "57b8f7efe40333cdb925700891c7d7465325d3b1",
+                "url": "https://api.github.com/repos/laravel/prompts/zipball/86a8b692e8661d0fb308cec64f3d176821323077",
+                "reference": "86a8b692e8661d0fb308cec64f3d176821323077",
                 "shasum": ""
             },
             "require": {
@@ -5015,22 +5062,22 @@
             "description": "Add beautiful and user-friendly forms to your command-line applications.",
             "support": {
                 "issues": "https://github.com/laravel/prompts/issues",
-                "source": "https://github.com/laravel/prompts/tree/v0.3.5"
+                "source": "https://github.com/laravel/prompts/tree/v0.3.6"
             },
-            "time": "2025-02-11T13:34:40+00:00"
+            "time": "2025-07-07T14:17:42+00:00"
         },
         {
             "name": "laravel/sanctum",
-            "version": "v4.1.1",
+            "version": "v4.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/sanctum.git",
-                "reference": "a360a6a1fd2400ead4eb9b6a9c1bb272939194f5"
+                "reference": "e4c09e69aecd5a383e0c1b85a6bb501c997d7491"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/sanctum/zipball/a360a6a1fd2400ead4eb9b6a9c1bb272939194f5",
-                "reference": "a360a6a1fd2400ead4eb9b6a9c1bb272939194f5",
+                "url": "https://api.github.com/repos/laravel/sanctum/zipball/e4c09e69aecd5a383e0c1b85a6bb501c997d7491",
+                "reference": "e4c09e69aecd5a383e0c1b85a6bb501c997d7491",
                 "shasum": ""
             },
             "require": {
@@ -5081,7 +5128,7 @@
                 "issues": "https://github.com/laravel/sanctum/issues",
                 "source": "https://github.com/laravel/sanctum"
             },
-            "time": "2025-04-23T13:03:38+00:00"
+            "time": "2025-07-01T15:49:32+00:00"
         },
         {
             "name": "laravel/serializable-closure",
@@ -5697,22 +5744,22 @@
         },
         {
             "name": "maennchen/zipstream-php",
-            "version": "3.1.2",
+            "version": "3.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/maennchen/ZipStream-PHP.git",
-                "reference": "aeadcf5c412332eb426c0f9b4485f6accba2a99f"
+                "reference": "9712d8fa4cdf9240380b01eb4be55ad8dcf71416"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maennchen/ZipStream-PHP/zipball/aeadcf5c412332eb426c0f9b4485f6accba2a99f",
-                "reference": "aeadcf5c412332eb426c0f9b4485f6accba2a99f",
+                "url": "https://api.github.com/repos/maennchen/ZipStream-PHP/zipball/9712d8fa4cdf9240380b01eb4be55ad8dcf71416",
+                "reference": "9712d8fa4cdf9240380b01eb4be55ad8dcf71416",
                 "shasum": ""
             },
             "require": {
                 "ext-mbstring": "*",
                 "ext-zlib": "*",
-                "php-64bit": "^8.2"
+                "php-64bit": "^8.3"
             },
             "require-dev": {
                 "brianium/paratest": "^7.7",
@@ -5721,7 +5768,7 @@
                 "guzzlehttp/guzzle": "^7.5",
                 "mikey179/vfsstream": "^1.6",
                 "php-coveralls/php-coveralls": "^2.5",
-                "phpunit/phpunit": "^11.0",
+                "phpunit/phpunit": "^12.0",
                 "vimeo/psalm": "^6.0"
             },
             "suggest": {
@@ -5763,7 +5810,7 @@
             ],
             "support": {
                 "issues": "https://github.com/maennchen/ZipStream-PHP/issues",
-                "source": "https://github.com/maennchen/ZipStream-PHP/tree/3.1.2"
+                "source": "https://github.com/maennchen/ZipStream-PHP/tree/3.2.0"
             },
             "funding": [
                 {
@@ -5771,7 +5818,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-01-27T12:07:53+00:00"
+            "time": "2025-07-17T11:15:13+00:00"
         },
         {
             "name": "marc-mabe/php-enum",
@@ -6746,34 +6793,89 @@
             "time": "2024-07-20T21:41:07+00:00"
         },
         {
-            "name": "prinsfrank/standards",
-            "version": "v3.3.0",
+            "name": "prinsfrank/enums",
+            "version": "v1.4.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/PrinsFrank/standards.git",
-                "reference": "1331328610497807ffcd2d1ef5a360286cc48a8e"
+                "url": "https://github.com/PrinsFrank/enums.git",
+                "reference": "3acfedf3fca35d6c6c134b45de489edff6306a2b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PrinsFrank/standards/zipball/1331328610497807ffcd2d1ef5a360286cc48a8e",
-                "reference": "1331328610497807ffcd2d1ef5a360286cc48a8e",
+                "url": "https://api.github.com/repos/PrinsFrank/enums/zipball/3acfedf3fca35d6c6c134b45de489edff6306a2b",
+                "reference": "3acfedf3fca35d6c6c134b45de489edff6306a2b",
                 "shasum": ""
             },
             "require": {
-                "php": "^8.1 || ^8.2 || ^8.3"
+                "php": "^8.1 || ^8.2 || ^8.3 || ^8.4"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3.43",
+                "phpstan/phpstan": "^1.10",
+                "phpstan/phpstan-strict-rules": "^1.5",
+                "phpunit/phpunit": "^10.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PrinsFrank\\Enums\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Adds missing strictly typed methods to work with enums",
+            "support": {
+                "issues": "https://github.com/PrinsFrank/enums/issues",
+                "source": "https://github.com/PrinsFrank/enums/tree/v1.4.1"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/PrinsFrank",
+                    "type": "github"
+                }
+            ],
+            "time": "2024-12-29T14:11:26+00:00"
+        },
+        {
+            "name": "prinsfrank/standards",
+            "version": "v3.12.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PrinsFrank/standards.git",
+                "reference": "8442c5d3dca137fb260c3f61caf0b162841d4bbc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PrinsFrank/standards/zipball/8442c5d3dca137fb260c3f61caf0b162841d4bbc",
+                "reference": "8442c5d3dca137fb260c3f61caf0b162841d4bbc",
+                "shasum": ""
+            },
+            "require": {
+                "ext-intl": "*",
+                "ext-mbstring": "*",
+                "php": "~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0",
+                "prinsfrank/enums": "^1.4"
             },
             "require-dev": {
                 "composer/composer": "^2.3",
                 "dbrekelmans/bdi": "^1.0",
                 "ext-dom": "*",
-                "ext-intl": "*",
-                "ext-mbstring": "*",
                 "friendsofphp/php-cs-fixer": "^3.8",
-                "phpstan/phpstan": "1.10.41",
-                "phpunit/phpunit": "^9.5",
-                "symfony/panther": "^2.0"
+                "phpstan/phpstan": "^2",
+                "phpstan/phpstan-strict-rules": "^2",
+                "phpunit/phpunit": "^11.2.6",
+                "prinsfrank/pdfparser": "2.0.0-alpha.1",
+                "prinsfrank/transliteration": "^1.0",
+                "symfony/panther": "dev-main"
             },
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "3.x-dev"
+                }
+            },
             "autoload": {
                 "psr-4": {
                     "PrinsFrank\\Standards\\": "src/"
@@ -6786,7 +6888,7 @@
             "description": "A collection of standards as PHP Enums: ISO3166, ISO4217, ISO639...",
             "support": {
                 "issues": "https://github.com/PrinsFrank/standards/issues",
-                "source": "https://github.com/PrinsFrank/standards/tree/v3.3.0"
+                "source": "https://github.com/PrinsFrank/standards/tree/v3.12.3"
             },
             "funding": [
                 {
@@ -6794,7 +6896,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-12-02T10:11:41+00:00"
+            "time": "2025-05-16T18:05:29+00:00"
         },
         {
             "name": "psr/cache",
@@ -12178,16 +12280,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "2.1.17",
+            "version": "2.1.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "89b5ef665716fa2a52ecd2633f21007a6a349053"
+                "reference": "ee1f390b7a70cdf74a2b737e554f68afea885db7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/89b5ef665716fa2a52ecd2633f21007a6a349053",
-                "reference": "89b5ef665716fa2a52ecd2633f21007a6a349053",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/ee1f390b7a70cdf74a2b737e554f68afea885db7",
+                "reference": "ee1f390b7a70cdf74a2b737e554f68afea885db7",
                 "shasum": ""
             },
             "require": {
@@ -12232,7 +12334,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-05-21T20:55:28+00:00"
+            "time": "2025-07-17T17:22:31+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -12571,16 +12673,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "11.5.26",
+            "version": "11.5.27",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "4ad8fe263a0b55b54a8028c38a18e3c5bef312e0"
+                "reference": "446d43867314781df7e9adf79c3ec7464956fd8f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/4ad8fe263a0b55b54a8028c38a18e3c5bef312e0",
-                "reference": "4ad8fe263a0b55b54a8028c38a18e3c5bef312e0",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/446d43867314781df7e9adf79c3ec7464956fd8f",
+                "reference": "446d43867314781df7e9adf79c3ec7464956fd8f",
                 "shasum": ""
             },
             "require": {
@@ -12590,7 +12692,7 @@
                 "ext-mbstring": "*",
                 "ext-xml": "*",
                 "ext-xmlwriter": "*",
-                "myclabs/deep-copy": "^1.13.1",
+                "myclabs/deep-copy": "^1.13.3",
                 "phar-io/manifest": "^2.0.4",
                 "phar-io/version": "^3.2.1",
                 "php": ">=8.2",
@@ -12652,7 +12754,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/11.5.26"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/11.5.27"
             },
             "funding": [
                 {
@@ -12676,7 +12778,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-07-04T05:58:21+00:00"
+            "time": "2025-07-11T04:10:06+00:00"
         },
         {
             "name": "sebastian/cli-parser",

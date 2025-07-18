@@ -5,7 +5,7 @@ echo "Starting container with FRAMEWORK=${FRAMEWORK} and PHP_VARIANT=${PHP_VARIA
 
 if [ "$FRAMEWORK" = "laravel" ]; then
   echo "Generate app key"
-  exec php artisan key:generate
+  php artisan key:generate
 fi
 
 if [ "$PHP_VARIANT" = "cli" ]; then

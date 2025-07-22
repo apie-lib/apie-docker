@@ -7,6 +7,10 @@ if [ "$FRAMEWORK" = "laravel" ]; then
   echo "Generate app key"
   php artisan key:generate
 fi
+if [ "$FRAMEWORK" = "symfony" ]; then
+  echo "Generate app key"
+  php bin/console secrets:generate-keys
+fi
 
 if [ "$PHP_VARIANT" = "cli" ]; then
   echo "Running in CLI mode (built-in PHP server)"

@@ -49,6 +49,7 @@ RUN composer dump-autoload --optimize && \
 # Expose port 8000 for dev server (Laravel or Symfony)
 EXPOSE 8000
 
+COPY router.php /app/router.php
 # Copy the entrypoint script and make it executable
 COPY entrypoint.sh /usr/local/bin/entrypoint.sh
 RUN chmod +x /usr/local/bin/entrypoint.sh

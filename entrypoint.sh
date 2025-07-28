@@ -14,7 +14,7 @@ fi
 
 if [ "$PHP_VARIANT" = "cli" ]; then
   echo "Running in CLI mode (built-in PHP server)"
-  exec php -S 0.0.0.0:8000 -t public
+  exec php -S 0.0.0.0:8000 -t public /app/router.php
 elif [ "$PHP_VARIANT" = "fpm" ]; then
   echo "Running in FPM mode"
   exec php-fpm

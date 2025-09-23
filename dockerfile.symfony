@@ -37,7 +37,7 @@ COPY symfony/composer.json composer.json
 COPY symfony/composer.lock composer.lock
 
 # Install Composer dependencies without scripts yet
-RUN composer install --no-scripts --no-autoloader --prefer-dist --no-interaction
+RUN composer update --no-scripts --no-autoloader --prefer-dist --no-interaction
 
 # Copy the rest of the selected framework's code
 COPY symfony/ ./

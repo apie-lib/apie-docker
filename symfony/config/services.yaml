@@ -20,6 +20,13 @@ services:
             - '../src/Entity/'
             - '../src/Controller/'
             - '../src/Kernel.php'
+    Domains\:
+        resource: '../domains/'
+        exclude:
+            - '../domains/**/Resources'
+            - '../domains/**/Enums'
+            - '../domains/**/ValueObject'
+            - '../domains/**/Identifiers'
     App\Controller\:
         resource: '../src/Controller/'
         tags:

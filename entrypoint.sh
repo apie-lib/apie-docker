@@ -9,7 +9,7 @@ if [ "$FRAMEWORK" = "laravel" ]; then
 fi
 if [ "$FRAMEWORK" = "symfony" ]; then
   echo "Generate app key"
-  php bin/console secrets:generate-keys
+  php bin/console secrets:generate-keys || true
 fi
 
 if [ "$PHP_VARIANT" = "cli" ]; then

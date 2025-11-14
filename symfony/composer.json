@@ -13,6 +13,7 @@
     "require": {
         "apie/meta-maximum": "1.0.0.x-dev",
         "apie/apie-bundle": "1.0.0.x-dev",
+        "apie/ftp-server": "1.0.0.x-dev",
         "doctrine/doctrine-bundle": "^2.10",
         "symfony/console": "6.*|7.*",
         "symfony/framework-bundle": "6.*|7.*",

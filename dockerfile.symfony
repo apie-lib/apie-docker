@@ -32,6 +32,8 @@ COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
 # Set the working directory
 WORKDIR /app
 
+RUN echo "memory_limit = -1" > /usr/local/etc/php/conf.d/memory-limit.ini
+
 # Copy only the selected framework's composer files first (for layer caching)
 COPY symfony/composer.json composer.json
 COPY symfony/composer.lock composer.lock

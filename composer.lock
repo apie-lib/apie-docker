@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/apie-lib/apie-lib-monorepo.git",
-                "reference": "9b9804d7ccc11a34ff6a2aa7575eb3a9c6a32015"
+                "reference": "cc68c9b8a6da6fc5b5edf0bcccdc5bf0cc0b8062"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/apie-lib/apie-lib-monorepo/zipball/9b9804d7ccc11a34ff6a2aa7575eb3a9c6a32015",
-                "reference": "9b9804d7ccc11a34ff6a2aa7575eb3a9c6a32015",
+                "url": "https://api.github.com/repos/apie-lib/apie-lib-monorepo/zipball/cc68c9b8a6da6fc5b5edf0bcccdc5bf0cc0b8062",
+                "reference": "cc68c9b8a6da6fc5b5edf0bcccdc5bf0cc0b8062",
                 "shasum": ""
             },
             "require": {
@@ -371,7 +371,7 @@
                 "issues": "https://github.com/apie-lib/apie-lib-monorepo/issues",
                 "source": "https://github.com/apie-lib/apie-lib-monorepo/tree/1.0.0"
             },
-            "time": "2025-11-24T14:14:41+00:00"
+            "time": "2025-11-25T05:13:14+00:00"
         },
         {
             "name": "apie/phpunit-matrix-data-provider",

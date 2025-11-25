@@ -1004,12 +1004,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/apie-lib/ftp-server.git",
-                "reference": "2cdd85d3826c80bf2bc380961edc3ecbc105f0fe"
+                "reference": "edb28980a18eb3ba6f818baa328e4c626663430f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/apie-lib/ftp-server/zipball/2cdd85d3826c80bf2bc380961edc3ecbc105f0fe",
-                "reference": "2cdd85d3826c80bf2bc380961edc3ecbc105f0fe",
+                "url": "https://api.github.com/repos/apie-lib/ftp-server/zipball/edb28980a18eb3ba6f818baa328e4c626663430f",
+                "reference": "edb28980a18eb3ba6f818baa328e4c626663430f",
                 "shasum": ""
             },
             "require": {
@@ -1050,7 +1050,7 @@
                 "issues": "https://github.com/apie-lib/ftp-server/issues",
                 "source": "https://github.com/apie-lib/ftp-server/tree/1.0.0"
             },
-            "time": "2025-11-24T21:44:35+00:00"
+            "time": "2025-11-24T22:25:31+00:00"
         },
         {
             "name": "apie/html-builders",

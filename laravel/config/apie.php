@@ -1,7 +1,8 @@
 <?php
+use Apie\LaravelApie\Config\ValidateAndSanitizeConfig;
 use Apie\DoctrineEntityDatalayer\DoctrineEntityDatalayer;
 
-return [
+return ValidateAndSanitizeConfig::process([
     'cms' => [
         'dashboard_template' => 'apie/dashboard',
     ],
@@ -24,4 +25,4 @@ return [
         'target_path' => base_path('domains/'),
         'target_namespace' => 'Domains\\',
     ],
-];
+]);

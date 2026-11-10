@@ -19,7 +19,7 @@
         "apie/export": "1.0.0.x-dev",
         "apie/ftp-server": "1.0.0.x-dev",
         "apie/webdav": "1.0.0.x-dev",
-        "laravel/framework": "^11.0",
+        "laravel/framework": "^12.0 || ^13.0",
         "laravel/sanctum": "^4.1",
         "guzzlehttp/guzzle": "^7.2"
     },

@@ -1,5 +1,5 @@
 # Build arguments (global)
-ARG PHP_VERSION=8.3
+ARG PHP_VERSION=8.4
 ARG PHP_VARIANT=cli
 
 # Use base image
@@ -23,7 +23,7 @@ RUN apt-get update && \
         libpq-dev \
         libzip-dev \
         zip \
-    && docker-php-ext-install intl pdo pdo_mysql opcache zip \
+    && docker-php-ext-install intl pdo_mysql zip \
     && rm -rf /var/lib/apt/lists/*
 
 # Install Composer globally from the official Composer image

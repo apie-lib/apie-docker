@@ -1,6 +1,6 @@
 # Makefile for building Symfony and Laravel Docker images
 
-# Default PHP version and variant (override with `make PHP_VERSION=8.3 PHP_VARIANT=cli`)
+# Default PHP version and variant (override with `make PHP_VERSION=8.5 PHP_VARIANT=cli`)
 PHP_VERSION ?= 8.4
 PHP_VARIANT ?= cli
 
